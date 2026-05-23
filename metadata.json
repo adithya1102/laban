@@ -1,0 +1,6 @@
+{
+  "name": "11:11 Laban",
+  "description": "Original clotted cream, rice pudding, and signature dessert labs under rigorous chemical sweet-tooth regulations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
