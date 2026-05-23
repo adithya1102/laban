@@ -10,7 +10,7 @@ export function AboutUs() {
   ];
 
   return (
-    <section id="about-section" className="py-16 bg-gradient-to-b from-blue-50/20 to-white relative overflow-hidden">
+    <section id="about-section" className="py-20 bg-gradient-to-b from-blue-50/20 to-white relative overflow-hidden">
       
       {/* Visual doodles background accents */}
       <div className="absolute right-0 top-1/2 -translate-y-1/2 w-64 h-64 rounded-full bg-blue-50/50 -z-10 blur-xl" />
@@ -23,7 +23,7 @@ export function AboutUs() {
           <span className="text-[10px] bg-laban-blue/10 text-laban-blue px-3 py-1 rounded-full font-bold uppercase tracking-widest font-sans inline-block">
             Behind the Formula
           </span>
-          <h2 className="font-display text-4xl font-extrabold text-slate-900 mt-3 tracking-tight">
+          <h2 className="font-display text-4xl font-extrabold text-[#10358A] mt-3 tracking-tight">
             How 11:11 Laban Redefined Sweet Alchemy
           </h2>
           <p className="text-slate-500 text-sm mt-3 font-sans">

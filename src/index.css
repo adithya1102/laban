@@ -6,10 +6,11 @@
   --font-display: "Fredoka", sans-serif;
   --font-arabic: "Cairo", sans-serif;
   
-  --color-laban-blue: #0c6be8;
+  --color-laban-blue: #10358A;
+  --color-laban-cyan: #00AEEF;
   --color-laban-dark: #07387d;
   --color-laban-light: #e6f0ff;
-  --color-laban-yellow: #fccf3a;
+  --color-laban-yellow: #FFD100;
   --color-laban-orange: #f57c00;
 }
 
