@@ -161,7 +161,7 @@ export default function App() {
           {/* Right: Food Image */}
           <div className="relative rounded-[40px] overflow-hidden shadow-2xl aspect-[4/3] border-4 border-white">
             <img
-              src="/images/combo.jpeg"
+              src={`${import.meta.env.BASE_URL}images/combo.jpeg`}
               alt="11:11 Laban Indulgence"
               referrerPolicy="no-referrer"
               className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
