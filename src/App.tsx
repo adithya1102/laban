@@ -345,6 +345,30 @@ export default function App() {
         </div>
       </section>
 
+      {/* Visit Us */}
+      <section className="bg-gray-50 py-20 border-t border-gray-100">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col items-center text-center">
+          <div className="flex items-center gap-2.5 mb-3">
+            <MapPin className="w-6 h-6 text-[#10358A] flex-shrink-0" />
+            <h2 className="font-display text-3xl md:text-4xl font-black text-[#10358A] tracking-tight leading-none">
+              Visit Us
+            </h2>
+          </div>
+          <p className="text-slate-500 text-base font-sans mt-1 mb-8 max-w-sm leading-relaxed">
+            11:11 Laban, Nanganallur, Chennai, Tamil Nadu
+          </p>
+          <a
+            href="https://www.google.com/maps/search/?api=1&query=11:11+Laban+Nanganallur+Chennai"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 bg-black text-white px-6 py-3 rounded-full hover:bg-gray-800 transition-colors font-display font-bold text-sm uppercase tracking-wider shadow-md"
+          >
+            <MapPin className="w-4 h-4" />
+            View on Google Maps
+          </a>
+        </div>
+      </section>
+
       {/* Footer */}
       <footer
         className="bg-slate-950 text-white pt-12 border-t border-slate-900"

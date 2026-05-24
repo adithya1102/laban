@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Sparkles, Menu, X } from 'lucide-react';
+import logoImage from '../assets/Logo.jpg';
 
 const NAV_ITEMS = [
   { id: 'menu-section', label: 'MENU' },
@@ -26,7 +27,7 @@ export function MainHeader() {
           onClick={() => scrollTo('hero-section')}
         >
           <img
-            src="/Logo.jpg"
+            src={logoImage}
             alt="11:11 Laban"
             className="h-16 w-16 md:h-20 md:w-20 rounded-full object-cover shadow-sm transition-transform group-hover:rotate-[11deg] duration-300"
           />

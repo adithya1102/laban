@@ -150,4 +150,112 @@ export const MENU_CATEGORIES: MenuCategory[] = [
       },
     ],
   },
+  {
+    category: 'Koshari',
+    description: 'Hand-crafted layered desserts — rich, indulgent, and engineered to perfection.',
+    items: [
+      {
+        id: 'KO01',
+        name: 'Trio',
+        description: 'A triple-layered masterpiece combining our three signature flavours in perfect harmony.',
+        price: 350,
+      },
+      {
+        id: 'KO02',
+        name: 'Pistachio Lotus',
+        description: 'Velvety lotus cream swirled with crushed roasted pistachios for a nutty, caramel depth.',
+        price: 350,
+      },
+      {
+        id: 'KO03',
+        name: 'Kinder Nutella',
+        description: 'Smooth Nutella and creamy Kinder chocolate layered together in pure decadence.',
+        price: 350,
+      },
+      {
+        id: 'KO04',
+        name: 'Pistachio Nutella',
+        description: 'Rich Nutella paired with roasted pistachio spread — a match engineered in the lab.',
+        price: 350,
+      },
+    ],
+  },
+  {
+    category: 'Salankatiya',
+    description: 'Our signature curated selection — bold flavours, unique creations, priced to their worth.',
+    items: [
+      {
+        id: 'SK01',
+        name: 'Pistachio Nutella',
+        description: 'Rich Nutella base layered with premium pistachio cream — the crowd favourite.',
+        price: 350,
+      },
+      {
+        id: 'SK02',
+        name: 'Pistachio Lotus',
+        description: 'Lotus caramel cream meets roasted pistachio — elegant, sweet, and deeply satisfying.',
+        price: 350,
+      },
+      {
+        id: 'SK03',
+        name: 'Trio',
+        description: 'All three signatures combined — a tasting masterclass in one dessert.',
+        price: 350,
+      },
+      {
+        id: 'SK04',
+        name: 'Kabsa',
+        description: 'Our signature spiced dessert creation — bold, unique, and entirely one of a kind.',
+        price: 380,
+      },
+      {
+        id: 'SK05',
+        name: 'Creme De La Creme',
+        description: 'The finest of the fine — a premium dessert experience at its absolute peak.',
+        price: 380,
+      },
+      {
+        id: 'SK06',
+        name: 'Lazy Cat',
+        description: 'Light, effortless sweetness — something special, effortlessly laid-back.',
+        price: 250,
+      },
+      {
+        id: 'SK07',
+        name: 'Cheese Bomb',
+        description: 'A molten cheese-cream explosion that balances sweet and savoury in every bite.',
+        price: 290,
+      },
+      {
+        id: 'SK08',
+        name: 'Hebba Cake',
+        description: 'A rich and tender celebration cake with deep layers of flavour throughout.',
+        price: 350,
+      },
+      {
+        id: 'SK09',
+        name: 'Al Mazia',
+        description: 'A classic Middle Eastern-inspired dessert — simple, refined, and deeply nostalgic.',
+        price: 250,
+      },
+    ],
+  },
+  {
+    category: 'Louah',
+    description: 'Chocolate-forward indulgences for those who crave something truly rich.',
+    items: [
+      {
+        id: 'LO01',
+        name: 'Nutella Pistachio Kinder',
+        description: 'The ultimate triple-threat: Nutella, pistachio, and Kinder — all in one extraordinary dessert.',
+        price: 350,
+      },
+      {
+        id: 'LO02',
+        name: 'Chocolate Kinder',
+        description: 'Pure Kinder chocolate essence elevated into a rich, velvety dessert experience.',
+        price: 350,
+      },
+    ],
+  },
 ];
